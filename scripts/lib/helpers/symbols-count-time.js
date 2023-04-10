@@ -14,7 +14,11 @@ function symbolsCountTime(content, isSite) {
       fMinutes = 1
     } // 0 => 1
     if (!suffix) {
-      suffix = 'mins.'
+      if (fMinutes == 1) {
+        suffix = 'min.'
+      } else {
+        suffix = 'mins.'
+      }
     } // 1 => 1 mins.
     return fHours < 1
       ? fMinutes + ' ' + suffix // < 59 => 59 mins.
