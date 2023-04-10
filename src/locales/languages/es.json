@@ -1,22 +1,22 @@
 {
   "menu": {
     "home": "Inicio",
-    "about": "Sobre mi",
+    "about": "Sobre mí",
     "archives": "Archivos",
-    "categories": "Categorias",
+    "categories": "Categorías",
     "tags": "Tags",
-    "post": "Articulo",
-    "search": "Busqueda",
+    "post": "Artículo",
+    "search": "Búsqueda",
     "message-board": "Panel de mensajes",
     "not-found": "Pagina no encontrada"
   },
   "home": {
-    "recommended": "Articulos Destacados"
+    "recommended": "Artículos Destacados"
   },
   "titles": {
-    "articles": "Articulos",
-    "about": "Sobre mi",
-    "category_list": "Categorias",
+    "articles": "Artículos",
+    "about": "Sobre mí",
+    "category_list": "Categorías",
     "tag_list": "Tags",
     "toc": "Tabla de Contenidos",
     "comment": "Comentarios",
@@ -37,8 +37,8 @@
       "nov",
       "dic"
     ],
-    "articles": "Articulos",
-    "categories": "Categorias",
+    "articles": "Artículos",
+    "categories": "Categorías",
     "tags": "Tags",
     "words": "Palabras",
     "visitor_count": "Contador visitantes total",
@@ -64,8 +64,8 @@
     "tips-back-to-top": "Ir al principio",
     "tips-open-menu": "Abrir menu",
     "tips-back-to-home": "Ir al inicio",
-    "tips-open-search": "Abrir busqueda",
-    "default-category": "Articulo",
+    "tips-open-search": "Abrir búsqueda",
+    "default-category": "Artículo",
     "default-tag": "no soportado",
     "empty-tag": "Actualmente no se han encontrado tags.",
     "pinned": "Pinned",

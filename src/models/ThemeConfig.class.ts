@@ -90,7 +90,7 @@ export class ThemeMenu implements ObMenu {
     const extract: GeneralOptions = {
       About: {
         name: 'About',
-        path: 'https://www.getmanfred.com/es/perfil/dariorodriguez',
+        path: '/about',
         i18n: {
           cn: '关于',
           en: 'About',
@@ -158,8 +158,8 @@ export class Menu {
     this.i18n = menu.i18n ? menu.i18n : {}
     this.children = menu.children
       ? Object.keys(menu.children).map(
-          (key: string) => new Menu(menu.children[key])
-        )
+        (key: string) => new Menu(menu.children[key])
+      )
       : []
   }
 }
@@ -405,9 +405,9 @@ export class SiteMeta {
     locale: string
     prismjs: string[]
   } = {
-    locale: 'en',
-    prismjs: []
-  }
+      locale: 'en',
+      prismjs: []
+    }
   favicon = ''
 
   /**
