@@ -1652,10 +1652,6 @@
                                             width: "7rem"
                                         }))
                                 ]),
-                                /*Object(a["j"])("span", {
-                                    class: "h-1 w-14 rounded-full mt-2",
-                                    style: e.gradientBackground
-                                }, null, 4),*/
                                 e.authorData.description
                                     ? (Object(a["A"])(), Object(a["g"])("p", {
                                         key: 2,
@@ -1863,7 +1859,7 @@
                 i = n.n(a),
                 o = n("21a1"),
                 r = n.n(o),
-                c = new i.a({ id: "icon-quote", use: "icon-quote-usage", viewBox: "0 0 24 24", content: '<symbol viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg" id="icon-quote">\n<path fill="" d="M22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C13.8 22 15.5 21.5 17 20.6L22 22L20.7 17C21.5 15.5 22 13.8 22 12Z" undefined="1" />\n<path fill="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z" undefined="1" />\n<path fill="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z" undefined="1" />\n<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M17 8.5C15.23 8.97 14.07 10.84 14.01 13.27C14 13.33 14 13.4 14 13.47V13.5" />\n<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M9 8.5C7.23 8.97 6.07 10.84 6.01 13.27C6 13.33 6 13.4 6 13.47V13.5" />\n<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M15.97 11.5H16.04C17.12 11.5 18 12.38 18 13.47V13.53C18 14.62 17.12 15.5 16.03 15.5H15.96C14.88 15.5 14 14.62 14 13.53V13.46C14 12.38 14.88 11.5 15.97 11.5Z" />\n<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke="" d="M7.97 11.5H8.04C9.12 11.5 10 12.38 10 13.47V13.53C10 14.62 9.12 15.5 8.03 15.5H7.97C6.88 15.5 6 14.62 6 13.53V13.46C6 12.38 6.88 11.5 7.97 11.5Z" />\n</symbol>' });
+                c = new i.a({ id: "icon-quote", use: "icon-quote-usage", viewBox: "0 0 24 24", content: '<symbol viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg" id="icon-quote">\n<g id="SVGRepo_bgCarrier" stroke-width="0"/>\n<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>\n<g id="SVGRepo_iconCarrier">\n<path d="M21,12a8.937,8.937,0,0,1-1.4,4.8L21,21l-4.2-1.4A8.994,8.994,0,1,1,21,12Z"/>\n</g>\n</symbol>' });
             r.a.add(c);
             t["default"] = c
         },
@@ -5947,10 +5943,6 @@
                                         width: "7rem"
                                     }))
                             ]),
-                            Object(a["j"])("span", {
-                                class: "h-1 w-14 rounded-full mt-2",
-                                style: e.gradientBackground
-                            }, null, 4),
                             e.authorData.description
                                 ? (Object(a["A"])(), Object(a["g"])("p", {
                                     key: 2,
@@ -7852,7 +7844,7 @@
                     }
                 }); c.render = i; var s = c,
                     l = {
-                        class: "\n      relative\n      flex\n      items-center\n      pb-2\n      mb-4\n      text-xl text-ob-bright\n      uppercase\n    underlinedGradientP"
+                        class: "\n      relative\n      flex\n      items-center\n      pb-2\n      mb-4\n      text-xl text-ob-bright\n      underlinedGradientP\n"
                     }; function u(e, t, n, i, o, r) {
                         var c = Object(a["I"])("svg-icon");
                         return Object(a["A"])(),
@@ -7919,18 +7911,18 @@
                                         }
                                     })
                                 ),
-                                lineClass: Object(a["e"])(
-                                    (function () {
-                                        return {
-                                            absolute: !0,
-                                            "bottom-0": !0,
-                                            "h-1": !0,
-                                            "w-14": !0,
-                                            "rounded-full": !0,
-                                            "right-0": "right" === s.value
-                                        }
-                                    })
-                                ),
+                                // lineClass: Object(a["e"])(
+                                //     (function () {
+                                //         return {
+                                //             absolute: !0,
+                                //             "bottom-0": !0,
+                                //             "h-1": !0,
+                                //             "w-14": !0,
+                                //             "rounded-full": !0,
+                                //             "right-0": "right" === s.value
+                                //         }
+                                //     })
+                                // ),
                                 titleStr: c,
                                 t: i
                             }

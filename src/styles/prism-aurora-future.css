@@ -47,7 +47,7 @@ pre::-webkit-scrollbar-track {
 
 pre::-webkit-scrollbar-thumb {
   /* background-color: var(--selection); */
-  background-color: linear-gradient(130deg, #ff0099, #5433ff 41.07%, #24c6dc 76.05%);
+  background: linear-gradient(130deg, #24c6dc, #5433ff 41.07%, #ff0099 76.05%);
   border-radius: 0.5em;
   box-shadow: inset 2px 2px 2px hsl(0deg 0% 100% / 25%),
     inset -2px -2px 2px rgb(0 0 0 / 25%);

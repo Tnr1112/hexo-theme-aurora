@@ -3033,7 +3033,7 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
 	/* background: #434343; */
-	background: linear-gradient(130deg, #ff0099, #5433ff 41.07%, #24c6dc 76.05%);
+	background: linear-gradient(130deg, #24c6dc, #5433ff 41.07%, #ff0099 76.05%);
 	border-radius: 16px;
 	box-shadow: inset 2px 2px 2px hsla(0, 0%, 39.2%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25)
 }
@@ -3050,7 +3050,7 @@ div::-webkit-scrollbar {
 
 div::-webkit-scrollbar-thumb {
 	/* background: #434343; */
-	background: linear-gradient(130deg, #ff0099, #5433ff 41.07%, #24c6dc 76.05%);
+	background: linear-gradient(130deg, #24c6dc, #5433ff 41.07%, #ff0099 76.05%);
 	border-radius: 16px;
 	box-shadow: inset 2px 2px 2px hsla(0, 0%, 39.2%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25)
 }
