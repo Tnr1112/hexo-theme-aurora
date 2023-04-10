@@ -1,7 +1,11 @@
-`hexo init *nombreProyecto*`
+## Inicializamos el proyecto y clonamos el tema
+```bash
+hexo init *nombreProyecto*
 cd nombreProyecto
 git clone https://github.com/Tnr1112/hexo-theme-aurora themes/aurora
+```
 Cambiar el `theme: aurora` y el `permalink: /post/:title.html`
+
 Agregar el archivo `_config.aurora.yml` con `cp themes/aurora/_config.yml _config.aurora.yml`
 
 Ejemplo `_config.aurora.yml`
